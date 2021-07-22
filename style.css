@@ -104,7 +104,5 @@ body {
 img {
     mix-blend-mode: multiply;
     opacity: 0.8;
-    max-width: 100%;
-    max-height: 100%;
-    object-fit: contain;
+    object-fit: cover;
 }
