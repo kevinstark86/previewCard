@@ -99,10 +99,57 @@ body {
     max-width: 555px;
     height: 100%;
     max-height: 446px;
+    overflow: hidden;
 }
 
 img {
     mix-blend-mode: multiply;
     opacity: 0.8;
     object-fit: cover;
+}
+
+/************ Media Queries ********/
+
+@media screen and (max-width: 1100px) {
+    .section {
+        flex-direction: column;
+        justify-content: none;
+        align-items: none;
+        width: 100%;
+        max-width: 555px;
+        margin-top: 100px;
+    }
+
+    .card-left {
+        text-align: center;
+        height: 100%;
+        max-height: 940px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .stats {
+        display: flex;
+        flex-direction: column;
+        margin-right: none;
+        width: 100%;
+        max-width: 85px;
+        text-align: center;
+    }
+
+    .stat p {
+        padding-right: 0px;
+        
+    }
+
+    .card-right {
+        order: -1;
+    }
+
+
+    body {
+        height: 200vh;
+    }
 }
