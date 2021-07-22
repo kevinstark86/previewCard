@@ -21,5 +21,90 @@
 body {
     font-family: 'Inter', sans-serif;
     background: var(--main-background);
+    color:var(--main-heading);
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    padding: 0 10px;
 }
 
+.section {
+    width: 100%;
+    max-width: 1110px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.card-left {
+    width: 100%;
+    max-width: 555px;
+    height: 100%;
+    max-height: 446px;
+    background: var(--card-background);
+    padding: 80px 80px
+}
+
+.card-left h1 {
+    font-weight: 700;
+    margin-bottom: 30px;
+    font-size: 36px;
+    
+}
+
+.card-left span {
+    color:var(--accent);
+}
+
+.card-left p {
+    margin-bottom: 60px;
+    color:var(--para);
+    
+
+}
+
+.stats {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: 400px;
+    justify-content: space-between;
+}
+
+.stat {
+    width: 100%;
+    max-width: 83px;
+    margin-right: 80px;
+}
+
+.stat h2 {
+    margin-bottom: 10px;
+}
+
+.stat p {
+    padding: 0;
+    padding-right: 40px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 12px;
+    color:var(--headings);
+}
+
+.card-right {
+    background: var(--accent);
+    width: 100%;
+    max-width: 555px;
+    height: 100%;
+    max-height: 446px;
+}
+
+img {
+    mix-blend-mode: multiply;
+    opacity: 0.8;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
